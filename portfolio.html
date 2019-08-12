@@ -6,77 +6,159 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <title>Bootstrap Portfolio</title>
 </head>
 
 <body>
     <!--Background img-->
     <div class="full-bg-img">
-            <div #id="intro" class="view">
+        <div #id="intro" class="view">
+        </div>
+
+    </div>
+
+    <!--Header and Navbar-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Joshua Coleman</h1>
             </div>
-        
-            </div>
-                
-                <!--Header and Navbar-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h1>Joshua Coleman</h1>
+            <div class="col-sm-6">
+                <div class="pos-f-t">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                            <h4 class="text-white">Bootstrap portfolio</h4>
+                            <div class="col-sm-6">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="index.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="text-muted">Project on how to use bootstrap content.</span>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="pos-f-t">
-                            <div class="collapse" id="navbarToggleExternalContent">
-                                <div class="bg-dark p-4">
-                                    <h4 class="text-white">Bootstrap portfolio</h4>
-                                    <div class="col-sm-6">
-                                        <ul class="nav justify-content-end">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" href="index.html">About</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="contact.html">Contact</a>
-                                            </li>
-                                        </ul>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </nav>
+                </div>
+
+
+
+            </div>
+            <!--Portfolio begins-->
+            <div class="row">
+                <div class="col md 6">
+                    <div class="card bg-white">
+                        <div class="card-title">
+                            <h1 class="htag">Portfolio</h1>
+                            <!--Bootstrap gallery-->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <!--Added pic from bootstrap-->
+                                        <figure>
+                                            <a class="black-text"
+                                                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(104).jpg"
+                                                data-size="1600x1067">
+                                                <img alt="picture"
+                                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(104).jpg"
+                                                    class="img-fluid" />
+                                                <h3 class="text-center my-3">Hangman</h3>
+                                            </a>
+                                        </figure>
+
                                     </div>
-                                    <span class="text-muted">Project on how to use bootstrap content.</span>
+                                    <div class="col-sm">
+                                        <!--Added pic from bootstrap-->
+                                        <figure>
+                                            <a class="black-text"
+                                                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(122).jpg"
+                                                data-size="1600x1067">
+                                                <img alt="picture"
+                                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(122).jpg"
+                                                    class="img-fluid" />
+                                                <h3 class="text-center my-3">RPG</h3>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="col-sm">
+                                        <!--Added pic from bootstrap-->
+                                        <figure>
+                                            <a class="black-text"
+                                                href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg"
+                                                data-size="1600x1067">
+                                                <img alt="picture"
+                                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
+                                                    class="img-fluid" />
+                                                <h3 class="text-center my-3">Triva Game</h3>
+                                            </a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="container">
+                                                <div class="row">
+                                                  <div class="col-sm ">
+                                                        <figure>
+                                                                <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(119).jpg"
+                                                                  data-size="1600x1067">
+                                                                  <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(119).jpg"
+                                                                    class="img-fluid" />
+                                                                  <h3 class="text-center my-3">Rutgers Info Widget</h3>
+                                                                </a>
+                                                              </figure>
+                                                        
+                                                  </div>
+                                                  <div class="col-sm ">
+                                                        <figure>
+                                                                <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(45).jpg"
+                                                                  data-size="1600x1067">
+                                                                  <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg"
+                                                                    class="img-fluid" />
+                                                                  <h3 class="text-center my-3">Rock Paper Scissors</h3>
+                                                                </a>
+                                                              </figure>
+                                                  </div>
+                                                  <div class="col-sm">
+                                                        One of three columns
+                                                      </div>
+                                                 
+                                                </div>
+                                              </div>
+
                                 </div>
                             </div>
-                            <nav class="navbar navbar-dark bg-dark">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </nav>
                         </div>
-        
-        
-        
                     </div>
-                    <!--Portfolio begins-->
-                    <div class="row">
-                        <div class="col md 6">
-                    <h1 class="htag">Portfolio</h1>
-                    </div>
-                    
-                   
                 </div>
-               
             </div>
-            <!--Sticky footer in bootstrap-->
+
+
+        </div>
+
+    </div>
+    <!--Sticky footer in bootstrap-->
     <footer class="footer">
         <div class="container">
-          <span class="text-muted">@copyright</span>
+            <span class="text-muted">@copyright</span>
         </div>
-      </footer>
- 
-            
-        
-    
+    </footer>
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
