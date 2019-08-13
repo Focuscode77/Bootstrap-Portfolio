@@ -1,11 +1,15 @@
 
 body{
-  background: #ccc;
+  background: url('../Bootstrap-Portfolio/images/patrick-hendry-TixcqTuuVsE-unsplash.jpg');
+  background-size: 100%;
+ background-repeat: no-repeat;
+  height: 500px;
 }
 
+}
 
-h1{
-    color:#ffffff;
+.header{
+  color: red;
 }
 
 .footer {
@@ -31,3 +35,13 @@ h1{
  background-repeat: no-repeat;
   height: 500px;
 }
+
+#bg-img2{
+  background: url("../Bootstrap-Portfolio/images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg");
+  background-size: 100%;
+ background-repeat: no-repeat;
+  height: 500px;
+
+}
+
+
