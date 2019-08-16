@@ -11,6 +11,10 @@ body{
 .header{
   color: red;
 }
+p{
+  font-size: 15px;
+  display: block;
+}
 
 .footer {
   position: absolute;
@@ -30,7 +34,7 @@ body{
 }
 
 #bg-img{
-  background: url('../Bootstrap-Portfolio/images/bg-Portfolio.jpg');
+  background: url('../Bootstrap-Portfolio/images/bg-Portfolio.jpgs');
   background-size: 100%;
  background-repeat: no-repeat;
   height: 500px;
@@ -43,6 +47,8 @@ body{
   height: 500px;
 
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -93,10 +99,10 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
+/* @media screen and (max-width: 600px) { */
+  /* .column, input[type=submit] { */
+    /* width: 100%; */
+    /* margin-top: 0; */
+  /* } */
+/* } */
 
